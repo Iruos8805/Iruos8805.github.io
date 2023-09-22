@@ -3,9 +3,7 @@ title: SOURI S
 paginate: 5
 theme: PaperMod
 
-module:
-  imports:
-    - path: github.com/adityatelange/hugo-PaperMod
+
 
 enableRobotsTXT: true
 buildDrafts: false
