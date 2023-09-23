@@ -1,27 +1,34 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>{{ .Site.Title }}</title>
-    <link>{{ .Site.BaseURL }}</link>
-    <description>{{ .Site.Params.description }}</description>
+    <title>SOURI S</title>
+    <link>https://examplesite.com/</link>
+    <description>Recent content on SOURI S</description>
     <image>
-      <title>{{ .Site.Title }}</title>
-      <url>{{ .Site.Params.images }}</url>
-      <link>{{ .Site.BaseURL }}</link>
+      <title>SOURI S</title>
+      <url>https://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>{{ now.Format "Mon, 02 Jan 2006 15:04:05 -0700" }}</lastBuildDate>
-    <atom:link href="{{ .Permalink }}" rel="self" type="application/rss+xml" />
-    
-    {{ range .Pages }}
+    <lastBuildDate>Wed, 20 Sep 2023 18:00:00 +0000</lastBuildDate><atom:link href="https://examplesite.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>{{ .Title }}</title>
-      <link>{{ .Permalink }}</link>
-      <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" }}</pubDate>
-      <guid>{{ .Permalink }}</guid>
-      <description>{{ .Summary | html }}</description>
+      <title>About</title>
+      <link>https://examplesite.com/about/about/</link>
+      <pubDate>Wed, 20 Sep 2023 18:00:00 +0000</pubDate>
+      
+      <guid>https://examplesite.com/about/about/</guid>
+      <description>I like to test myself with challenges that demand atmost dedication, patience and thinking. I strongly believe that challenges,tasks and obstacles act as a sieve that will help in draining crisp and perfect results from a person. I yearn for anything and everything that will provide me with valuable exposure and connections filling me with experience and knowledge needed to improve myself in whatever field it may be.
+I have always been curious and always thinks about the future,past and present of anything and everything I see.</description>
     </item>
-    {{ end }}
+    
+    <item>
+      <title>MY APPROACH</title>
+      <link>https://examplesite.com/blog/my-approach-to-the-task/</link>
+      <pubDate>Wed, 13 Sep 2023 22:39:10 +0000</pubDate>
+      
+      <guid>https://examplesite.com/blog/my-approach-to-the-task/</guid>
+      <description>MY APPROACH TO THE TASK My approach to this task was no different from my approach to other tasks. I made sure that I understood the task clearly and then proceeded to work on it. I approached Youtube videos and Hugo websites to understand more about the different themes and websites. I made sure I understood what a portfolio website was and tried to create one with my limited progress in this field.</description>
+    </item>
     
   </channel>
 </rss>
