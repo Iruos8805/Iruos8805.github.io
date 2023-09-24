@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Blogs on SOURI S</title>
+    <link>https://examplesite.com/blog/</link>
+    <description>Recent content in Blogs on SOURI S</description>
+    <image>
+      <title>SOURI S</title>
+      <url>https://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 13 Sep 2023 22:39:10 +0000</lastBuildDate><atom:link href="https://examplesite.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>MY APPROACH</title>
+      <link>https://examplesite.com/blog/my-approach-to-the-task/</link>
+      <pubDate>Wed, 13 Sep 2023 22:39:10 +0000</pubDate>
+      
+      <guid>https://examplesite.com/blog/my-approach-to-the-task/</guid>
+      <description>MY APPROACH TO THE TASK My approach to this task was no different from my approach to other tasks. I made sure that I understood the task clearly and then proceeded to work on it. I approached Youtube videos and Hugo websites to understand more about the different themes and websites. I made sure I understood what a portfolio website was and tried to create one with my limited progress in this field.</description>
+    </item>
+    
+  </channel>
+</rss>
